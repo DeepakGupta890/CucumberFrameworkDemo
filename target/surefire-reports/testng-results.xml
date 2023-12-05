@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-28T20:13:44 IST" name="Suite" finished-at="2023-10-28T20:15:07 IST" duration-ms="83105">
+    <groups>
+      <group name="Purchage">
+        <method signature="LoginTest.submitOrderTest(java.util.HashMap)[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.LoginTest@77102b91]" name="submitOrderTest" class="framework.MavenStructuredFrameworkDesign.Test.LoginTest"/>
+      </group> <!-- Purchage -->
+    </groups>
+    <test started-at="2023-10-28T20:13:44 IST" name="Submit Order Test" finished-at="2023-10-28T20:14:37 IST" duration-ms="53519">
+      <class name="framework.MavenStructuredFrameworkDesign.Test.LoginTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.LoginTest@77102b91]" started-at="2023-10-28T20:13:44 IST" name="launchApplication" finished-at="2023-10-28T20:14:01 IST" duration-ms="17020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.LoginTest@77102b91]" started-at="2023-10-28T20:14:01 IST" name="submitOrderTest" data-provider="getData" finished-at="2023-10-28T20:14:18 IST" duration-ms="16923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@123, product=ADIDAS ORIGINAL, email=deepaktest+2@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.LoginTest@77102b91]" started-at="2023-10-28T20:14:18 IST" name="tearDown" finished-at="2023-10-28T20:14:18 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.LoginTest@77102b91]" started-at="2023-10-28T20:14:18 IST" name="launchApplication" finished-at="2023-10-28T20:14:20 IST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.LoginTest@77102b91]" started-at="2023-10-28T20:14:20 IST" name="submitOrderTest" data-provider="getData" finished-at="2023-10-28T20:14:37 IST" duration-ms="17268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@1234, product=ADIDAS ORIGINAL, email=shivkr@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.LoginTest@77102b91]" started-at="2023-10-28T20:14:37 IST" name="tearDown" finished-at="2023-10-28T20:14:37 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.MavenStructuredFrameworkDesign.Test.LoginTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2023-10-28T20:14:39 IST" name="Error Validation" finished-at="2023-10-28T20:15:07 IST" duration-ms="27467">
+      <class name="framework.MavenStructuredFrameworkDesign.Test.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.ErrorValidationsTest@7ca20101]" started-at="2023-10-28T20:14:39 IST" name="launchApplication" finished-at="2023-10-28T20:14:47 IST" duration-ms="7897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.ErrorValidationsTest@7ca20101]" started-at="2023-10-28T20:14:47 IST" name="LoginErrorValidation" finished-at="2023-10-28T20:14:48 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.ErrorValidationsTest@7ca20101]" started-at="2023-10-28T20:14:48 IST" name="tearDown" finished-at="2023-10-28T20:14:48 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.ErrorValidationsTest@7ca20101]" started-at="2023-10-28T20:14:48 IST" name="launchApplication" finished-at="2023-10-28T20:14:52 IST" duration-ms="3647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.ErrorValidationsTest@7ca20101]" started-at="2023-10-28T20:14:52 IST" name="productErrorValidation" finished-at="2023-10-28T20:15:07 IST" duration-ms="14947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.MavenStructuredFrameworkDesign.Test.ErrorValidationsTest@7ca20101]" started-at="2023-10-28T20:15:07 IST" name="tearDown" finished-at="2023-10-28T20:15:07 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.MavenStructuredFrameworkDesign.Test.ErrorValidationsTest -->
+    </test> <!-- Error Validation -->
+  </suite> <!-- Suite -->
+</testng-results>
